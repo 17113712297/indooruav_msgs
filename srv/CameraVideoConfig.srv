@@ -1,0 +1,19 @@
+# 相机视频参数 (分辨率 + 帧率)
+# 与 drone_comm::CamVideoCfgPayload 对齐
+
+# 分辨率枚举
+uint8 RES_1920X1080 = 1
+uint8 RES_3840X2160 = 2
+uint8 RES_2720X1530 = 3
+
+# 帧率枚举
+uint8 FPS_24 = 1
+uint8 FPS_25 = 2
+uint8 FPS_30 = 3
+uint8 FPS_48 = 4
+uint8 FPS_50 = 5
+uint8 FPS_60 = 6
+
+uint8 resolution  # RES_*
+uint8 frame_rate  # FPS_*
+---

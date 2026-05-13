@@ -1,0 +1,13 @@
+# 云台角度控制
+# 与 drone_comm::GimbalAnglePayload 对齐
+
+# 模式枚举
+uint8 MODE_ABSOLUTE = 0
+uint8 MODE_RELATIVE = 1
+
+uint8   mode      # MODE_ABSOLUTE / MODE_RELATIVE
+float32 pitch     # deg
+float32 roll      # deg
+float32 yaw       # deg
+float32 duration  # 完成动作的目标耗时 (秒)，必须 > 0
+---

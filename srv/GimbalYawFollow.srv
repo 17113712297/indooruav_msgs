@@ -1,0 +1,5 @@
+# 云台 Yaw Follow 控制
+# 与 drone_comm::GimbalYawFollowPayload 对齐
+float32 pitch  # deg
+float32 roll   # deg
+---

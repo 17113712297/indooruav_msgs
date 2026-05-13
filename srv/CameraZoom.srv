@@ -1,0 +1,16 @@
+# 相机变焦 / 镜头切换
+# 与 drone_comm::CamZoomPayload 对齐
+
+# 镜头枚举
+uint8 LENS_WIDE     = 0
+uint8 LENS_ZOOM     = 1
+uint8 LENS_INFRARED = 2
+
+# 动作枚举
+uint8 ACTION_SWITCH_ONLY    = 0   # 仅切镜头，ratio 忽略
+uint8 ACTION_SWITCH_AND_SET = 1   # 切镜头 + 设置变焦倍数
+
+uint8   lens     # LENS_*
+uint8   action   # ACTION_*
+float32 ratio    # 变焦倍数 (仅 lens=LENS_ZOOM 且 action=ACTION_SWITCH_AND_SET 时有效)
+---
