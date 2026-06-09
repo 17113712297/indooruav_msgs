@@ -11,6 +11,8 @@ add_service_files(
     CameraZoom.srv
     GimbalAngle.srv
     GimbalYawFollow.srv
+    TransferMissionMedia.srv
+    UploadImageBytes.srv
     UavCameraSetVideoResolution.srv
     UavCameraShoot.srv
     UavCameraVideoEnd.srv

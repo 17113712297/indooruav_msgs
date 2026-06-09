@@ -1,0 +1,7 @@
+string airline_key
+string detect_time_cur
+string source_name
+string image_extension
+uint8[] image_bytes
+---
+int32 result_code

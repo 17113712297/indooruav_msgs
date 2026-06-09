@@ -1,0 +1,7 @@
+string airline_key
+string detect_time_cur
+---
+int32 result_code
+int32 matched_count
+int32 uploaded_count
+int32 failed_count
